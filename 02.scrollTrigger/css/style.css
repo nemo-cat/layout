@@ -1,0 +1,138 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Sedan+SC&display=swap');
+
+.en {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* section01 */
+.sec01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sec01 h1 {
+    font-size: 32px;
+}
+
+.sec01 h1 span {
+    font-size: 64px;
+    color: rgb(68, 126, 151);
+}
+
+/* section02 */
+.sec02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 0;
+}
+
+.sec02 .text-box {
+    width: 35%;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.sec02 .text-box h2 {
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+
+.sec02 .text-box ul li {
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.sec02 .text-box ul li:hover {
+    text-decoration: underline;
+}
+
+.sec02 .img-box {
+    width: 45%;
+}
+
+.sec02 .img-box ul {
+    height: 450px;
+    position: relative;
+}
+
+.sec02 .img-box ul li {
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    transform: translateX(-50%);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.sec02 .img-box ul .img01 {
+    transform: translateX(-50%) rotate(5deg);
+}
+
+.sec02 .img-box ul .img02 {
+    transform: translateX(-50%) rotate(-5deg);
+}
+
+.sec02 .img-box ul .img03 {
+    transform: translateX(-50%) rotate(7deg);
+}
+
+.sec02 .img-box ul .img04 {
+    transform: translateX(-50%) rotate(-7deg);
+}
+
+.sec02 .img-box ul .img05 {
+    transform: translateX(-50%) rotate(2deg);
+}
+
+.sec02 .img-box ul .img06 {
+    transform: translateX(-50%) rotate(-2deg);
+}
+
+.sec02 .img-box ul li img {
+    width: 500px;
+    height: 380px;
+    object-fit: cover;
+}
+
+
+/* section03 */
+.sec03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sec03 p {
+    font-size: 36px;
+}
+
